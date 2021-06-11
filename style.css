@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+:root {
+    --main-bg-color:orange;
+  }
+*{
+
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: var(--main-bg-color);
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    
+}
+nav{
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 88px;
+    padding: 0 18px;
+}
+ nav ul li a {
+    color: white;
+    padding: 2vh;
+    text-decoration: none;
+}
+nav ul li a:hover{
+font-weight: bolder;
+    
+    
+}
+nav ul {
+    height: 08vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    }
+    .search{
+        display: flex;
+        align-items: center;
+    }  
+    .search input{
+        width: 30vw;
+        height: 25px;
+        font-family: 'Oswald', sans-serif;
+        border-radius: 8px;
+        margin: 0 10px 0 60px;
+        padding: 0 11px;
+    }
+    .search button{
+        font-family: 'Oswald', sans-serif;
+    }
+    .slider{
+        margin: 12px auto;
+        width: 88vw;
+        overflow: hidden;
+    }
+    .cart h3{
+        font-family: 'Ubuntu', sans-serif;
+    }
+    .cart{
+        background-color: white;
+        font-family: 'Ubuntu', sans-serif;
+        max-width: 97vw;
+        margin: 37px auto;
+        padding: 8px;
+    }
+    .carts{
+        display: flex;
+        text-align: center;
+        overflow: hidden;
+    }
+    .cart-item{
+        
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 15px;
+    }
+    
+.container{
+    min-height: calc(100vh - 08vh - 13vh);
+}
+footer{
+    background-color:var(--main-bg-color);
+    color: white;
+    height: 13vh;
+    font-family: 'Oswald', sans-serif;
+}
+body{
+    background-color: rgb(238, 232, 175);
+}
